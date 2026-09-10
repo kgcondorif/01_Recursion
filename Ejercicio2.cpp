@@ -18,6 +18,12 @@ int main (){
         cin >> arreglo[i];
     }
 
+    cout << "Arreglo ingresado: ";
+    for (int i = 0; i < n; i++){
+        cout << arreglo[i] << " ";
+    }
+    cout << endl;
+    
     result = suma(arreglo, n);
     cout << "El resultado es: " << result << endl;
 
